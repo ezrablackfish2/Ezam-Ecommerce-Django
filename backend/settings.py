@@ -215,3 +215,15 @@ if os.getcwd() == '/app':
 CSRF_TRUSTED_ORIGINS = [
     'https://ezam-ecommerce.onrender.com',
 ]
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    # Add other origins as needed
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+    # Add other origins if needed
+]
