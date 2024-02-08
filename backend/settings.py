@@ -131,7 +131,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 #}
 
 DATABASES = {
-        "default": dj_database_url.parse("postgres://ezra:oyCGLczi7VKx64RZYSDGMbUbC4QJJbli@dpg-cmvimnacn0vc73ap2do0-a.ohio-postgres.render.com/ezam")
+        "default": dj_database_url.parse("postgres://ezra:6YgGUWfsY4zGCkGvKMh9ZuS2mHAmZDXf@dpg-cn26h6n109ks7393rcl0-a.ohio-postgres.render.com/ezam_xd9r")
 }
 
 # Database
