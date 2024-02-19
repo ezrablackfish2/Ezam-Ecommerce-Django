@@ -240,4 +240,5 @@ CORS_ALLOW_HEADERS = [
     'x-api-key',  # Add x-api-key here
     'x-csrftoken',
     'x-requested-with',
+    'application/json',
 ]
